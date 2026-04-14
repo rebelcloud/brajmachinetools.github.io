@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMT | Gold Chain Making Machinery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --gold: #D4AF37; --dark: #121212; --grey: #1f1f1f; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--dark); color: white; line-height: 1.6; }
+        nav { display: flex; justify-content: space-between; align-items: center; padding: 10px 5%; background: #000; border-bottom: 2px solid var(--gold); }
+        .logo-wrap { display: flex; align-items: center; text-decoration: none; color: white; }
+        .bmt-logo { width: 45px; height: 45px; border: 2px solid var(--gold); border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 12px; color: var(--gold); font-weight: bold; }
+        
+        .container { padding: 50px 5%; }
+        .machine-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px; }
+        .m-card { background: var(--grey); border: 1px solid #333; border-radius: 8px; overflow: hidden; }
+        .m-img { width: 100%; height: 300px; background: #222; object-fit: cover; }
+        .m-content { padding: 25px; }
+        .m-content h2 { color: var(--gold); margin-top: 0; }
+        .spec-list { list-style: none; padding: 0; color: #bbb; margin: 20px 0; }
+        .spec-list li { margin-bottom: 8px; border-bottom: 1px solid #333; padding-bottom: 5px; }
+        .btn-quote { display: block; text-align: center; background: var(--gold); color: #000; padding: 15px; text-decoration: none; font-weight: bold; border-radius: 4px; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="logo-wrap">
+            <div class="bmt-logo">BMT</div>
+            <b style="font-size: 18px;">BRAJ MACHINE TOOLS</b>
+        </a>
+        <a href="index.html" style="color: white; text-decoration: none; font-size: 14px;">HOME</a>
+    </nav>
+
+    <div class="container">
+        <h1 style="border-left: 5px solid var(--gold); padding-left: 15px;">Gold Chain Machinery</h1>
+        <div class="machine-grid">
+            <div class="m-card">
+                <div class="m-img" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);color:#D4AF37;font-weight:bold;font-size:16px;text-align:center;padding:20px;">
+                    <div><i class="fas fa-cogs" style="font-size:50px;display:block;margin-bottom:10px;"></i>Automatic Chain Maker</div>
+                </div>
+                <div class="m-content">
+                    <h2>Automatic Chain Maker</h2>
+                    <ul class="spec-list">
+                        <li><b>Compatibility:</b> Gold, Silver, Brass</li>
+                        <li><b>Wire Range:</b> 0.20mm - 1.00mm</li>
+                        <li><b>Speed:</b> High-Speed Precision</li>
+                    </ul>
+                    <a href="https://wa.me/919719411537?text=Quote for Automatic Machine" class="btn-quote">Request Technical Quote</a>
+                </div>
+            </div>
+
+            <div class="m-card">
+                <div class="m-img" style="display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#1a1a1a,#2a2a2a);color:#D4AF37;font-weight:bold;font-size:16px;text-align:center;padding:20px;">
+                    <div><i class="fas fa-industry" style="font-size:50px;display:block;margin-bottom:10px;"></i>Chain Shaping Machine</div>
+                </div>
+                <div class="m-content">
+                    <h2>Chain Shaping Machine</h2>
+                    <ul class="spec-list">
+                        <li><b>Styles:</b> Curb, Cable, Figaro</li>
+                        <li><b>Control:</b> Manual/Semi-Auto</li>
+                        <li><b>Finish:</b> High Polish Compression</li>
+                    </ul>
+                    <a href="https://wa.me/919719411537?text=Quote for Shaping Machine" class="btn-quote">Request Technical Quote</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
